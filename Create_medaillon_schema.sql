@@ -8,3 +8,7 @@ CREATE SCHEMA IF NOT EXISTS silver;
 -- COMMAND ----------
 
 CREATE SCHEMA IF NOT EXISTS gold;
+
+-- COMMAND ----------
+
+

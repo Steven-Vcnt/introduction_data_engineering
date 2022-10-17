@@ -18,10 +18,6 @@ from pyspark.sql.types import FloatType
 
 # COMMAND ----------
 
-
-
-# COMMAND ----------
-
 # MAGIC %sh
 # MAGIC rm -r /dbfs/FileStore/DVF_file
 
@@ -49,6 +45,10 @@ for link in dvf_files:
         pass
     else:
         pass
+
+# COMMAND ----------
+
+dvf_files
 
 # COMMAND ----------
 
