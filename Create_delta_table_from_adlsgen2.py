@@ -7,7 +7,7 @@ from pyspark.sql.types import FloatType
 
 spark.conf.set("fs.azure.account.auth.type.introductiondatastorage.dfs.core.windows.net", "SAS")
 spark.conf.set("fs.azure.sas.token.provider.type.introductiondatastorage.dfs.core.windows.net", "org.apache.hadoop.fs.azurebfs.sas.FixedSASTokenProvider")
-spark.conf.set("fs.azure.sas.fixed.token.introductiondatastorage.dfs.core.windows.net", "sv=2021-06-08&ss=bfqt&srt=sco&sp=rwdlacupyx&se=2022-10-15T01:39:36Z&st=2022-10-14T17:39:36Z&spr=https&sig=m0Q9064gcgiv%2BQUKSUa8Y16Vlc9IIX8EiEU%2FlGSPKMM%3D")
+spark.conf.set("fs.azure.sas.fixed.token.introductiondatastorage.dfs.core.windows.net", "")
 
 # COMMAND ----------
 
